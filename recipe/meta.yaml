@@ -1,5 +1,5 @@
 {% set name = "YAML-Tiny" %}
-{% set version = "1.75" %}
+{% set version = "1.76" %}
 
 package:
   name: perl-{{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://cpan.metacpan.org/authors/id/E/ET/ETHER/{{ name }}-{{ version }}.tar.gz
-  sha256: de1b13affad57ae8493e755adef5b0ce0fd028956ea8c6faba7df8bbe181d646
+  sha256: a8d584394cf069bf8f17cba3dd5099003b097fce316c31fb094f1b1c171c08a3
 
 build:
   number: 0
